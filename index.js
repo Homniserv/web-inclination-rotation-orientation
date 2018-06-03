@@ -1,5 +1,5 @@
 (function(){
-console.log("no6");
+console.log("no18");
   
   
   
@@ -10,6 +10,7 @@ console.log("no6");
 var gammay = document.querySelector('.gammay');
 var alphaz = document.querySelector('.alphaz');
 
+  //https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth
 var maxX = garden.clientWidth  - ball.clientWidth;
 var maxY = garden.clientHeight - ball.clientHeight;
 
@@ -23,7 +24,7 @@ function handleOrientation(event) {
   gammay.innerHTML += "gamma: " + y + "\n";
 alphaz.innerHTML += "alpha: " + z + "\n";
   
-  console.log("no17");
+
 document.getElementById("betax").innerHTML = x;
   
   document.getElementById("gammay").innerHTML = y;
