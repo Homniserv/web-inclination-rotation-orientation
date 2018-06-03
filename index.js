@@ -6,9 +6,9 @@ console.log("no6");
   
   
   
-  var ball   = document.querySelector('.ball');
-var garden = document.querySelector('.garden');
-var output = document.querySelector('.output');
+  var betax   = document.querySelector('.betax');
+var gammay = document.querySelector('.gammay');
+var alphaz = document.querySelector('.alphaz');
 
 var maxX = garden.clientWidth  - ball.clientWidth;
 var maxY = garden.clientHeight - ball.clientHeight;
@@ -19,11 +19,11 @@ function handleOrientation(event) {
 
   var z = event.alpha;  // 
 
-  output.innerHTML  = "beta : " + x + "\n";
-  output.innerHTML += "gamma: " + y + "\n";
-output.innerHTML += "alpha: " + z + "\n";
+  betax.innerHTML  = "beta : " + x + "\n";
+  gammay.innerHTML += "gamma: " + y + "\n";
+alphaz.innerHTML += "alpha: " + z + "\n";
   
-  console.log("no7");
+  console.log("no17");
 document.getElementById("betax").innerHTML = x;
   
   document.getElementById("gammay").innerHTML = y;
