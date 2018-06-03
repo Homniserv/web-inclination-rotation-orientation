@@ -1,3 +1,3 @@
-function(){
-console.log("no2");
-}();
+(function(){
+console.log("no3");
+})();
